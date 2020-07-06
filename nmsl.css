@@ -1,0 +1,113 @@
+@import url('https://fonts.loli.net/css2?family=M+PLUS+1p&display=swap');
+@import url('https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+.nmsl-container {
+    display: block;
+    margin: auto;
+    max-width: 1024px;
+    height: 100%;
+    position: relative;
+}
+
+.nmsl-hero {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.nmsl-box {
+    margin: auto;
+    display: block;
+}
+
+.nmsl-box span {
+    display: block;
+    text-align: center;
+}
+
+.nmsl-translation {
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 700;
+    letter-spacing: 1em;
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: -1em;
+    transition: opacity .2s ease;
+}
+
+.nmsl-button {
+    display: block;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    transition: all .2s ease;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nmsl-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.nmsl-text {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 96px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+    font-family: 'Noto Serif SC', serif;
+    opacity: 0;
+    transition: all .2s ease;
+    cursor: help;
+}
+
+footer:hover {
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.copyright, .links {
+    display: block;
+}
+
+.links a {
+    text-decoration: none;
+    opacity: 1;
+    transition: all .2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.links a:hover {
+    opacity: .5;
+    border-bottom: 1px solid rgba(0, 0, 0, .32);
+    transition: all .2s ease;
+}
+
+footer * {
+    color: rgba(0, 0, 0, .32);
+}
